@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormData">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="100dp"
+                    android:hint="@string/name"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtSurname"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtbirthday"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/surname"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="132dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtSurname2"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_below="@+id/txtname"
+                    android:hint="@string/surname2"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtBirthday"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/birthday"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtAddress"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/address"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtPostalcode"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/postalcode"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtCity"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/city"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+                <Spinner
+                    android:id="@+id/telephoneType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Spinner>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="71dp"
+                app:helperText="@string/emailHelp">
+
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/phone"
+                    android:inputType="textEmailAddress" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
