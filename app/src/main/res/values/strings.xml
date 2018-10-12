@@ -1,15 +1,23 @@
 <resources>
     <string name="app_name">IdiomaKids</string>
     <string name="email">EMAIL</string>
-    <string name="Password">PASSWORD</string>
+    <string name="password">PASSWORD</string>
     <string name="login">LOGIN</string>
-    <string name="emailHelp">The Email must contains a @</string>
+    <string name="emailHelp">The email must contains a @</string>
     <string name="surname">SURNAME</string>
     <string name="name">NAME</string>
     <string name="surname2">SURNAME2</string>
     <string name="birthday">BIRTHDAY</string>
     <string name="address">ADDRESS</string>
-    <string name="postalcode">POSTAL CODE</string>
+    <string name="postalCode">POSTAL CODE</string>
     <string name="city">CITY</string>
     <string name="phone">PHONE</string>
+    <string name="save">SAVE</string>
+
+    <string-array name="phoneType">
+        <item>Mobile Phone</item>
+        <item>Phone</item>
+    </string-array>
+
+
 </resources>

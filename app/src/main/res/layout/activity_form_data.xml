@@ -16,43 +16,48 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <android.support.design.widget.TextInputLayout
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/textInputLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                app:helperText="@string/emailHelp">
+                android:layout_height="match_parent">
 
 
                 <EditText
                     android:id="@+id/txtName"
-                    android:layout_width="300dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="32dp"
                     android:hint="@string/name"
-                    android:inputType="textEmailAddress" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:inputType="text"
+                    />
 
 
-            </android.support.design.widget.TextInputLayout>
+            </android.support.constraint.ConstraintLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginTop="18dp"
-                app:helperText="@string/emailHelp">
+                >
 
 
                 <EditText
                     android:id="@+id/txtSurname"
                     android:layout_width="155dp"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/txtbirthday"
-                    android:layout_marginLeft="15dp"
+                    android:layout_below="@+id/txtName"
+                    android:layout_marginStart="15dp"
                     android:hint="@string/surname"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="text"
+                     />
 
 
             </android.support.design.widget.TextInputLayout>
@@ -60,20 +65,19 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="132dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="-48dp"
+                >
 
 
                 <EditText
                     android:id="@+id/txtSurname2"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtName"
                     android:layout_marginStart="200dp"
-                    android:layout_below="@+id/txtname"
                     android:hint="@string/surname2"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="text"
+                    />
 
 
             </android.support.design.widget.TextInputLayout>
@@ -81,91 +85,92 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="20dp"
+                >
 
 
                 <EditText
                     android:id="@+id/txtBirthday"
-                    android:layout_width="353dp"
+                    android:layout_width="155dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:hint="@string/birthday"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="text"
+                    />
 
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="20dp"
+                >
 
 
                 <EditText
                     android:id="@+id/txtAddress"
                     android:layout_width="353dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:hint="@string/address"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="text"
+                     />
 
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="20dp"
+                >
 
 
                 <EditText
-                    android:id="@+id/txtPostalcode"
-                    android:layout_width="353dp"
+                    android:id="@+id/txtPostalCode"
+                    android:layout_width="155dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:hint="@string/postalcode"
-                    android:inputType="textEmailAddress" />
+                    android:layout_marginStart="15dp"
+                    android:hint="@string/postalCode"
+                    android:inputType="text"
+                    />
 
 
             </android.support.design.widget.TextInputLayout>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="-48dp"
+
+                >
 
 
                 <EditText
                     android:id="@+id/txtCity"
-                    android:layout_width="353dp"
+                    android:layout_width="167dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
+                    android:layout_below="@id/txtAddress"
+                    android:layout_marginStart="200dp"
                     android:hint="@string/city"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="text"
+                    />
 
 
             </android.support.design.widget.TextInputLayout>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+
+                android:layout_marginTop="20dp">
 
                 <Spinner
-                    android:id="@+id/telephoneType"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:id="@+id/spnTelephoneType"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:entries="@array/phoneType"
+                    >
 
                 </Spinner>
 
@@ -173,24 +178,33 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="71dp"
-                app:helperText="@string/emailHelp">
+                android:layout_marginTop="-50dp"
+
+                >
 
 
                 <EditText
                     android:id="@+id/txtPhone"
-                    android:layout_width="353dp"
+                    android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="200dp"
                     android:hint="@string/phone"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="phone"
+                    />
 
 
             </android.support.design.widget.TextInputLayout>
 
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:text="@string/save"
+                />
+
         </LinearLayout>
+
     </ScrollView>
 
 </RelativeLayout>
