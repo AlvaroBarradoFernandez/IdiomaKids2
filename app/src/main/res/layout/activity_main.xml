@@ -66,11 +66,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/logoapp" />
 
 </RelativeLayout>
