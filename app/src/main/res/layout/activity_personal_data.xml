@@ -11,8 +11,138 @@
         android:layout_height="match_parent">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageprofile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/logoapp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-100dp">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:hint="@string/name"
+                    android:inputType="text" />
 
 
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtSurname"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:hint="@string/surname"
+                    android:inputType="text" />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtDesc"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:hint="@string/desc"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/gender"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"/>
+
+           <RadioGroup
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_centerHorizontal="true"
+               android:orientation="horizontal">
+
+               <RadioButton
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:text="@string/male"
+                   android:layout_marginStart="30dp"/>
+               <RadioButton
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginStart="100dp"
+                   android:text="@string/female"/>
+           </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hobbies"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <CheckBox
+                android:id="@+id/hbeat"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="138dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/eat" />
+
+            <CheckBox
+                android:id="@+id/hbsleep"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="138dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-140dp"
+                android:text="@string/sleep" />
+
+            <CheckBox
+                android:id="@+id/hbwalk"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="138dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-140dp"
+                android:text="@string/walk" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-50dp"
+                android:text="@string/save" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/SKIP"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>

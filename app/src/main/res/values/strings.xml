@@ -13,6 +13,16 @@
     <string name="city">CITY</string>
     <string name="phone">PHONE</string>
     <string name="save">SAVE</string>
+    <string name="desc">DESCRIPTION</string>
+    <string name="gender">GENDER</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="eat">EAT</string>
+    <string name="sleep">SLEEP</string>
+    <string name="walk">WALK</string>
+    <string name="hobbies">HOBBIES</string>
+    <string name="SKIP">SKIP</string>
+
 
     <string-array name="phoneType">
         <item>Mobile Phone</item>
