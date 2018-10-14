@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".FormData" />
-        <activity android:name=".PersonalData"></activity>
+        <activity android:name=".PersonalData" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>

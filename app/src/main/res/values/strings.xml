@@ -22,6 +22,11 @@
     <string name="walk">WALK</string>
     <string name="hobbies">HOBBIES</string>
     <string name="SKIP">SKIP</string>
+    <string name="address1">ADDRESS:</string>
+    <string name="contact1">CONTACT:</string>
+    <string name="contact">CONTACT</string>
+    <string name="hobbies1">HOBBIES:</string>
+    <string name="map">MAP</string>
 
 
     <string-array name="phoneType">

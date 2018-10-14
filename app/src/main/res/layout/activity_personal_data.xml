@@ -133,7 +133,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="-50dp"
-                android:text="@string/save" />
+                android:text="@string/save"
+                android:onClick="onClick"/>
 
             <TextView
                 android:layout_width="100dp"
